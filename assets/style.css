@@ -1,7 +1,7 @@
 .navbar {
   background-image: url('/assets/navbar-bg.jpg');
   background-size: cover;
-  background-repeat: round;
+  background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
   display: flex;
