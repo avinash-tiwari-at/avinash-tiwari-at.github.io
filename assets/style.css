@@ -1,0 +1,23 @@
+.navbar {
+  background-image: url('/assets/navbar-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px; /* ← Increased gap between links */
+}
+
+/* Style individual links inside navbar */
+.navbar a {
+  color: #ffffff;          /* Bright white text */
+  font-weight: bold;       /* Bold for visibility */
+  text-decoration: none;   /* Removes underline */
+  font-size: 18px;         /* Make text a bit larger */
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Optional hover effect */
+  color: #ffcc00;             /* Yellow on hover for visibility */
+}
