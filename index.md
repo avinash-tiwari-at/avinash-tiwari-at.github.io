@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+bodyClass: home
 ---
 
 ### Welcome to My Home Page
