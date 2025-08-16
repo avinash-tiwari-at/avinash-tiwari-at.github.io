@@ -41,7 +41,7 @@ body.about {
 }
 
 body.publications {
-  background-image: url('/assets/bg_publications.jpg');
+  background-image: url('/assets/bg_pub.jpg');
   background-size: cover;       /* cover whole page */
   background-repeat: no-repeat;
   background-position: center;
