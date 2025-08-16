@@ -21,3 +21,11 @@
   text-decoration: underline; /* Optional hover effect */
   color: #ffcc00;             /* Yellow on hover for visibility */
 }
+
+.home{
+  background-image: url('/assets/bg_home.jpg');
+  background-size: cover;       /* cover whole page */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* optional parallax effect */
+}
