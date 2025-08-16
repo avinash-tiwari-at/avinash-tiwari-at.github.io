@@ -30,3 +30,21 @@ body.home {
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
 }
+
+body.about {
+  background-image: url('/assets/bg_about.jpg');
+  background-size: cover;       /* cover whole page */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* optional parallax effect */
+  color: #fff;
+}
+
+body.publications {
+  background-image: url('/assets/bg_publications.jpg');
+  background-size: cover;       /* cover whole page */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* optional parallax effect */
+  color: #fff;
+}
