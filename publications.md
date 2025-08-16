@@ -1,3 +1,9 @@
+---
+layout: default
+title: Publications
+bodyClass: publications
+---
+
 1. Avinash Tiwari, Prolay Chanda, Shasvath J. Kapadia, Susmita Adhikari, Aditya Vijaykumar, Basudeb Dasgupta: "Profiling Dark Matter Spikes with Gravitational Waves from Accelerated Binaries" [arXiv:2508.03803](https://arxiv.org/abs/2508.03803)
 2. Avinash Tiwari, Aditya Vijaykumar, Shasvath J. Kapadia, Shrobana Ghosh, Alex B. Nielsen: "A pipeline to search for signatures of line-of-sight acceleration in gravitational wave signals produced by compact binary coalescences" [arXiv:2506.22272](https://arxiv.org/abs/2506.22272)
 3. Avinash Tiwari, Aditya Vijaykumar, Shasvath J. Kapadia, Sourav Chatterjee, Giacomo Fragione: "Profiling stellar environments of gravitational wave sources" [arXiv:2407.15117](https://arxiv.org/abs/2407.15117)
