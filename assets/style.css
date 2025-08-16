@@ -22,7 +22,7 @@
   color: #ffcc00;             /* Yellow on hover for visibility */
 }
 
-.home{
+.home {
   background-image: url('/assets/bg_home.jpg');
   background-size: cover;       /* cover whole page */
   background-repeat: no-repeat;
