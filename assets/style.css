@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;   /* remove outer space */
-  padding: 0;  /* remove inner space */
+  padding: 20px;  /* remove inner space */
   display: flex;
   justify-content: flex-end;
   gap: 100px; /* ← Increased gap between links */
