@@ -1,1 +1,1 @@
-[CV]('./assets/CV_Avinash.pdf')
+[CV](./assets/CV_Avinash.pdf)
