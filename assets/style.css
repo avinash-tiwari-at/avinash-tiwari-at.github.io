@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: space-between; /* left = name, right = links */
   align-items: center;            /* vertically center items */
-  gap: 50px; /* ← Increased gap between links */
+  gap: 100px; /* ← Increased gap between links */
 }
 
 /* Style individual links inside navbar */
