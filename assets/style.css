@@ -4,7 +4,6 @@ body {
 }
 
 .navbar {
-  width: 100%;
   padding: 20px;            /* single padding definition */
   
   background-image: url('/assets/bkg_pub.jpg');
