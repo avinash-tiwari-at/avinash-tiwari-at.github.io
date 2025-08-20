@@ -35,6 +35,13 @@ body {
   color: white;                   /* bright text for dark background */
 }
 
+.navbar-right a {
+  margin-left: 20px;              /* spacing between links */
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 body.home {
   background-image: url('/assets/bg_home.jpg');
   background-size: cover;       /* cover whole page */
