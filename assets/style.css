@@ -4,14 +4,17 @@ body {
 }
 
 .navbar {
-  background-image: url('/assets/navbar-bg.jpg');
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;            /* single padding definition */
+  
+  background-image: url('/assets/bkg_pub.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0;   /* remove outer space */
-  padding: 20px;  /* remove inner space */
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between; /* left = name, right = links */
+  align-items: center;            /* vertically center items */
   gap: 100px; /* ← Increased gap between links */
 }
 
@@ -26,6 +29,12 @@ body {
 .navbar a:hover {
   text-decoration: underline; /* Optional hover effect */
   color: #ffcc00;             /* Yellow on hover for visibility */
+}
+
+.site-name {
+  font-size: 28px;                /* bigger font for name */
+  font-weight: bold;
+  color: white;                   /* bright text for dark background */
 }
 
 body.home {
@@ -47,7 +56,7 @@ body.about {
 }
 
 body.publications {
-  background-image: url('/assets/bkg_pub.jpg');
+  background-image: url('/assets/bkg_pub1.jpg');
   background-size: cover;       /* cover whole page */
   background-repeat: no-repeat;
   background-position: center;
