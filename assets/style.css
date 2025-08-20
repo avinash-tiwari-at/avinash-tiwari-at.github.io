@@ -52,6 +52,30 @@ body.home {
   font-size: 25px;
 }
 
+/* Home Page Layout */
+.home-container {
+  display: flex;
+  align-items: center;   /* vertically align items */
+  justify-content: center; /* center whole block horizontally */
+  gap: 30px;             
+  margin-top: 40px;
+  text-align: left;      /* keep text left-aligned by default */
+}
+
+.profile-pic {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;    
+  object-fit: cover;     
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.home-text {
+  font-size: 1.1rem;
+  color: #fff;           
+  max-width: 600px;      
+}
+
 body.about {
   background-image: url('/assets/bg_about.jpg');
   background-size: cover;       /* cover whole page */
@@ -113,3 +137,14 @@ body.publications {
   border-radius: 10px;
 }
 
+/* 📱 Responsive for small screens */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;   /* stack vertically */
+    text-align: center;       /* center text under image */
+  }
+
+  .home-text {
+    margin-top: 15px;
+  }
+}
