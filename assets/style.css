@@ -6,7 +6,7 @@ body {
 .navbar {
   width: 100%;
   margin: 0;
-  padding: 10px 20px;            /* single padding definition */
+  padding: 20px;            /* single padding definition */
   
   background-image: url('/assets/bkg_pub.jpg');
   background-size: cover;
@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between; /* left = name, right = links */
   align-items: center;            /* vertically center items */
-  gap: 100px; /* ← Increased gap between links */
+  gap: 50px; /* ← Increased gap between links */
 }
 
 /* Style individual links inside navbar */
@@ -32,7 +32,7 @@ body {
 }
 
 .site-name {
-  font-size: 28px;                /* bigger font for name */
+  font-size: 30px;                /* bigger font for name */
   font-weight: bold;
   color: white;                   /* bright text for dark background */
 }
