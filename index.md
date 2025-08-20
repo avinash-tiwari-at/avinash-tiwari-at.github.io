@@ -4,8 +4,13 @@ title: Home
 bodyClass: home
 ---
 
-### Welcome to My Home Page
+<div class="home-container">
+  <img src="./Profile_picture.jpg" alt="Profile Picture" class="profile-pic">
 
-<img src="./Profile_picture.jpg" alt="Profile Picture" width="225" height="300">
-
-I am a Research Scholar at the Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune.
+  <div class="home-text">
+    <h3>Welcome to My Home Page</h3>
+    <p>
+      I am a Research Scholar at the Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune.
+    </p>
+  </div>
+</div>
