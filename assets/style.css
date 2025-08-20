@@ -49,6 +49,7 @@ body.home {
   background-position: center;
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
+  font-size: 25px;
 }
 
 body.about {
@@ -58,6 +59,7 @@ body.about {
   background-position: center;
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
+  font-size: 20px;
 }
 
 body.publications {
@@ -67,4 +69,5 @@ body.publications {
   background-position: center;
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
+  font-size: 25px;
 }
