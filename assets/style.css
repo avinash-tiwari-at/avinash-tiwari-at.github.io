@@ -42,6 +42,16 @@ body {
   font-size: 20px;
 }
 
+/* Hide hamburger button on desktop */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
 body.home {
   background-image: url('/assets/bg_home.jpg');
   background-size: cover;       /* cover whole page */
@@ -159,6 +169,31 @@ body.publications {
 }
 
 /* 📱 Responsive for small screens */
+@media (max-width: 768px) {
+  .navbar-right {
+    display: none; /* hide links initially */
+    flex-direction: column;
+    background-color: #222;
+    position: absolute;
+    top: 60px;   /* below navbar */
+    right: 0;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .navbar-right a {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: block; /* show hamburger */
+  }
+
+  .navbar-right.show {
+    display: flex; /* show links when menu toggled */
+  }
+}
+
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column;   /* stack vertically */
