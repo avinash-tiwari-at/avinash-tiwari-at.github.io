@@ -4,8 +4,6 @@ title: Research
 bodyClass: research
 ---
 
-# Research
-
 <div class="research-container">
   <div class="research-text">
     <h3>Welcome to my research page. Here I describe the projects I am working on.</h3>
