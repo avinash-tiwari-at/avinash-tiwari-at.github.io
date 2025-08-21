@@ -5,7 +5,7 @@ bodyClass: home
 ---
 
 <div class="home-container">
-  <img src="./Profile_picture.jpg" alt="Profile Picture" class="profile-pic">
+  <img src="./pic2.jpg" alt="Profile Picture" class="profile-pic">
   
   <div class="home-text">
     <h3>Welcome to My Home Page</h3>
