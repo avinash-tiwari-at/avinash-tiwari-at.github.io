@@ -6,6 +6,7 @@ bodyClass: research
 
 <div class="research-container">
   <div class="research-text">
+    <h2>Research</h2>
     <h3>Welcome to my research page. Here I describe the projects I am working on.</h3>
     <p>
       <figure style="text-align: center;">
