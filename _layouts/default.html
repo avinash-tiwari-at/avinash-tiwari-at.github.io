@@ -9,16 +9,21 @@
   <style>
     /* Smooth dropdown for mobile menu */
     @media (max-width: 768px) {
+      .navbar {
+        position: relative;
+        z-index: 1000;
+      }
+
       .navbar-right {
         overflow: hidden;
         max-height: 0;              /* collapsed by default */
         flex-direction: column;
-        background-color: #222;
+        background-color: #222;     /* background for menu */
         position: absolute;
         top: 60px;                  /* below navbar */
         right: 0;
         width: 100%;                /* full width */
-        transition: max-height 0.3s ease-out;
+        transition: max-height 0.3s ease-out, background-color 0.3s ease-out;
       }
 
       .navbar-right a {
@@ -28,6 +33,12 @@
 
       .navbar-right.show {
         max-height: 500px;          /* expand smoothly */
+        background-color: #222;     /* keep background visible */
+      }
+
+      /* Ensure navbar itself also has background when toggled */
+      .navbar.expanded {
+        background-color: #222;
       }
     }
   </style>
@@ -35,7 +46,7 @@
 
 <body class="{{ page.bodyClass }}">
 
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="navbar-left">
       <span class="site-name">Avinash Tiwari</span>
     </div>
@@ -66,7 +77,11 @@
     }
 
     function toggleMenu() {
-      document.getElementById("navbar-links").classList.toggle("show");
+      const navbarLinks = document.getElementById("navbar-links");
+      const navbar = document.getElementById("navbar");
+
+      navbarLinks.classList.toggle("show");
+      navbar.classList.toggle("expanded");
     }
   </script>
 
