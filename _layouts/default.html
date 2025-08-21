@@ -16,29 +16,29 @@
 
       .navbar-right {
         overflow: hidden;
-        max-height: 0;              /* collapsed by default */
+        max-height: 0;                  /* collapsed by default */
         flex-direction: column;
-        background-color: #222;     /* background for menu */
+        background-color: rgba(34,34,34,0.9); /* semi-transparent */
         position: absolute;
-        top: 60px;                  /* below navbar */
+        top: 60px;                      /* below navbar */
         right: 0;
-        width: 100%;                /* full width */
+        width: 100%;                    /* full width */
         transition: max-height 0.3s ease-out, background-color 0.3s ease-out;
       }
 
       .navbar-right a {
         margin: 10px 0;
-        text-align: center;         /* center links */
+        text-align: center;             /* center links */
       }
 
       .navbar-right.show {
-        max-height: 500px;          /* expand smoothly */
-        background-color: #222;     /* keep background visible */
+        max-height: 500px;              /* expand smoothly */
+        background-color: rgba(34,34,34,0.9);
       }
 
-      /* Ensure navbar itself also has background when toggled */
+      /* Ensure navbar itself also semi-transparent when toggled */
       .navbar.expanded {
-        background-color: #222;
+        background-color: rgba(34,34,34,0.9);
       }
     }
   </style>
