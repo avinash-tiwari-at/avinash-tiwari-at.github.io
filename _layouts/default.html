@@ -6,46 +6,69 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    /* Smooth dropdown for mobile menu */
+    @media (max-width: 768px) {
+      .navbar-right {
+        overflow: hidden;
+        max-height: 0;              /* collapsed by default */
+        flex-direction: column;
+        background-color: #222;
+        position: absolute;
+        top: 60px;                  /* below navbar */
+        right: 0;
+        width: 100%;                /* full width */
+        transition: max-height 0.3s ease-out;
+      }
+
+      .navbar-right a {
+        margin: 10px 0;
+        text-align: center;         /* center links */
+      }
+
+      .navbar-right.show {
+        max-height: 500px;          /* expand smoothly */
+      }
+    }
+  </style>
 </head>
 
 <body class="{{ page.bodyClass }}">
 
   <nav class="navbar">
-  <div class="navbar-left">
-    <span class="site-name">Avinash Tiwari</span>
-  </div>
+    <div class="navbar-left">
+      <span class="site-name">Avinash Tiwari</span>
+    </div>
 
-  <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
     
-  <div class="navbar-right">
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/assets/CV_Avinash.pdf" target="_blank">CV</a>
-    <a href="/publications.html">Publications</a>
-    <a href="/photos.html">Photos</a>
-  </div>
-</nav>
+    <div class="navbar-right" id="navbar-links">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/assets/CV_Avinash.pdf" target="_blank">CV</a>
+      <a href="/publications.html">Publications</a>
+      <a href="/photos.html">Photos</a>
+    </div>
+  </nav>
 
   <main>
     {{ content }}
   </main>
 
-  
-<script>
-function openLightbox(img) {
-  document.getElementById("lightbox").style.display = "flex";
-  document.getElementById("lightbox-img").src = img.src;
-}
+  <script>
+    function openLightbox(img) {
+      document.getElementById("lightbox").style.display = "flex";
+      document.getElementById("lightbox-img").src = img.src;
+    }
 
-function closeLightbox() {
-  document.getElementById("lightbox").style.display = "none";
-}
+    function closeLightbox() {
+      document.getElementById("lightbox").style.display = "none";
+    }
 
-function toggleMenu() {
-  document.getElementById("navbar-links").classList.toggle("active");
-}
-</script>
+    function toggleMenu() {
+      document.getElementById("navbar-links").classList.toggle("show");
+    }
+  </script>
 
-  
 </body>
 </html>
