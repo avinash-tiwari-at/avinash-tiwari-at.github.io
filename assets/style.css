@@ -106,10 +106,12 @@ body.about {
 }
 
 .about-container .profile-pic {
-  width: 225px;
-  height: 225px;
-  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 60%;
   object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .about-text {
@@ -125,6 +127,18 @@ body.research {
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
   font-size: 25px;
+}
+
+.research-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.research-text {
+  max-width: 600px;
 }
 
 /* Publications page layout */
