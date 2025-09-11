@@ -21,7 +21,7 @@ bodyClass: home
   <a href="https://orcid.org/0000-0001-7197-8899" target="_blank">
     <img src="/assets/icons/orcid.png" alt="ORCID" class="social-icon" width="28">
   </a>
-  <a href="https://inspirehep.net/authors/2690075?ui-citation-summary=true" target="_blank" width="2">
+  <a href="https://inspirehep.net/authors/2690075?ui-citation-summary=true" target="_blank" width="28">
     <img src="/assets/icons/inspirehep.jpg" alt="InspireHEP">
   </a>
   <a href="https://github.com/avi-tiw" target="_blank">
