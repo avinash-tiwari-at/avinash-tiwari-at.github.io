@@ -62,6 +62,17 @@ body.home {
   font-size: 25px;
 }
 
+.home a {
+  color: #ffcc00;          /* bright yellow for contrast */
+  text-decoration: none;   /* remove underline */
+  font-weight: bold;
+}
+
+.home a:hover {
+  color: #ff6600;          /* orange on hover */
+  text-decoration: underline;
+}
+
 /* Home Page Layout */
 .home-container {
   display: flex;
@@ -241,19 +252,27 @@ body.publications {
   }
 }
 
+/* Social links row */
 .social-links {
   margin-top: 20px;
   display: flex;
-  gap: 20px;              /* space between icons */
-  justify-content: center; /* center horizontally */
+  gap: 20px;                /* spacing between icons */
+  justify-content: center;  /* center horizontally */
+  padding: 10px 20px;
+
+  /* Blurred background */
+  background: rgba(0, 0, 0, 0.4);   /* semi-transparent dark box */
+  backdrop-filter: blur(6px);       /* blur background behind */
+  border-radius: 12px;
 }
 
+/* Icons inside */
 .social-links img {
-  width: 40px;
-  height: 40px;
+  width: 35px;   /* smaller than 40px */
+  height: 35px;
   transition: transform 0.2s ease;
 }
 
 .social-links img:hover {
-  transform: scale(1.2);  /* zoom on hover */
+  transform: scale(1.2);  /* zoom effect */
 }
