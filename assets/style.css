@@ -62,16 +62,6 @@ body.home {
   font-size: 25px;
 }
 
-.home-links a {
-  color: #ffcc00;   /* light blue, visible on dark bg */
-  font-size: 25px;  /* smaller than your big default text */
-  text-decoration: none;
-}
-
-.home-links a:hover {
-  color: #ff6600;   /* yellow on hover */
-}
-
 /* Home Page Layout */
 .home-container {
   display: flex;
@@ -94,6 +84,16 @@ body.home {
 .home-text {
   color: #fff;           
   max-width: 600px;      
+}
+
+.home-text a {
+  color: #ffcc00;   /* light blue, visible on dark bg */
+  font-size: 25px;  /* smaller than your big default text */
+  text-decoration: none;
+}
+
+.home-text a:hover {
+  color: #ff6600;   /* yellow on hover */
 }
 
 /* About page layout */
