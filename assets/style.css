@@ -62,15 +62,14 @@ body.home {
   font-size: 25px;
 }
 
-body.home a {
-  color: #ffcc00;          /* bright yellow for contrast */
-  text-decoration: none;   /* remove underline */
-  font-weight: bold;
+.home-links a {
+  color: #ffcc00;   /* light blue, visible on dark bg */
+  font-size: 18px;  /* smaller than your big default text */
+  text-decoration: none;
 }
 
-body.home a:hover {
-  color: #ff6600;          /* orange on hover */
-  text-decoration: underline;
+.home-links a:hover {
+  color: #ff6600;   /* yellow on hover */
 }
 
 /* Home Page Layout */
@@ -252,27 +251,24 @@ body.publications {
   }
 }
 
-/* Social links row */
-.social-links {
-  margin-top: 20px;
-  display: flex;
-  gap: 20px;                /* spacing between icons */
-  justify-content: center;  /* center horizontally */
-  padding: 10px 20px;
-
-  /* Blurred background */
-  background: rgba(0, 0, 0, 0.6);   /* semi-transparent dark box */
-  backdrop-filter: blur(8px);       /* blur background behind */
-}
-
-/* Icons inside */
-.social-links img {
-  width: 40px;
-  height: 40px;
-  filter: brightness(0) invert(1);  /* makes dark logos white */
+.social-icon {
+  width: 50px;
+  height: 50px;
+  filter: brightness(0) invert(1);  /* makes dark icons white */
   transition: transform 0.2s ease;
 }
 
-.social-links img:hover {
-  transform: scale(1.2);  /* zoom effect */
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Social bar styling */
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.1);  /* blurred dark background */
+  padding: 10px 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
 }
