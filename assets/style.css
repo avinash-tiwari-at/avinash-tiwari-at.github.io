@@ -240,3 +240,20 @@ body.publications {
     margin-top: 15px;
   }
 }
+
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;              /* space between icons */
+  justify-content: center; /* center horizontally */
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);  /* zoom on hover */
+}
