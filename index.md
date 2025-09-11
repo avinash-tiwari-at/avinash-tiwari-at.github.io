@@ -22,7 +22,7 @@ bodyClass: home
     <img src="/assets/icons/orcid.png" alt="ORCID" class="social-icon">
   </a>
   <a href="https://inspirehep.net/authors/2690075?ui-citation-summary=true" target="_blank">
-    <img src="/assets/icons/inspirehep.jpg" alt="InspireHEP">
+    <img src="/assets/icons/inspirehep.jpg" alt="InspireHEP" class="social-icon-no-invert">
   </a>
   <a href="https://github.com/avi-tiw" target="_blank">
     <img src="/assets/icons/github.png" alt="GitHub" class="social-icon">
