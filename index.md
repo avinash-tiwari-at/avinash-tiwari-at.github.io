@@ -14,3 +14,17 @@ bodyClass: home
     </p>
   </div>
 </div>
+<div class="social-links">
+  <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4w06cMNd1ZgVLyrh4tXlqWjrE7jQ8tGXpQEUtfDMVS0Bj8szHhtsxRmuuGCqIRrz_lAlg0Noxlgz79iwCfCxAxqedO2dsLaCTFhgfI&user=Ip9C7hoAAAAJ" target="_blank">
+    <img src="/assets/icons/google-scholar.png" alt="Google Scholar">
+  </a>
+  <a href="https://orcid.org/0000-0001-7197-8899" target="_blank">
+    <img src="/assets/icons/orcid.png" alt="ORCID">
+  </a>
+  <a href="https://inspirehep.net/authors/2690075?ui-citation-summary=true" target="_blank">
+    <img src="/assets/icons/inspirehep.png" alt="InspireHEP">
+  </a>
+  <a href="https://github.com/avi-tiw" target="_blank">
+    <img src="/assets/icons/github.png" alt="GitHub">
+  </a>
+</div>
