@@ -64,7 +64,7 @@ body.home {
 
 .home-links a {
   color: #ffcc00;   /* light blue, visible on dark bg */
-  font-size: 18px;  /* smaller than your big default text */
+  font-size: 25px;  /* smaller than your big default text */
   text-decoration: none;
 }
 
