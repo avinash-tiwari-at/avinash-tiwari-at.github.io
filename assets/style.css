@@ -254,7 +254,7 @@ body.publications {
 .social-links {
   display: flex;
   justify-content: center;    /* center horizontally */
-  gap: 15px;
+  gap: 25px;
   margin: 20px auto;          /* add auto margins to center block itself */
   background: rgba(0, 0, 0, 0.1);  
   padding: 10px 15px;
@@ -270,5 +270,15 @@ body.publications {
 }
 
 .social-icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icon-no-invert {
+  width: 70px;
+  height: 70px;
+  transition: transform 0.2s ease;
+}
+
+.social-icon-no-invert:hover {
   transform: scale(1.2);
 }
