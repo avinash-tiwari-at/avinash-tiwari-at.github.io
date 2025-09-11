@@ -251,24 +251,24 @@ body.publications {
   }
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;    /* center horizontally */
+  gap: 15px;
+  margin: 20px auto;          /* add auto margins to center block itself */
+  background: rgba(0, 0, 0, 0.1);  
+  padding: 10px 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+}
+
 .social-icon {
-  width: 50px;
-  height: 50px;
-  filter: brightness(0) invert(1);  /* makes dark icons white */
+  width: 70px;   /* was 50px */
+  height: 70px;  /* was 50px */
+  filter: brightness(0) invert(1);
   transition: transform 0.2s ease;
 }
 
 .social-icon:hover {
   transform: scale(1.2);
-}
-
-/* Social bar styling */
-.social-links {
-  display: flex;
-  gap: 15px;
-  margin-top: 20px;
-  background: rgba(0, 0, 0, 0.1);  /* blurred dark background */
-  padding: 10px 15px;
-  border-radius: 12px;
-  backdrop-filter: blur(8px);
 }
