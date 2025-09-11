@@ -5,7 +5,7 @@ bodyClass: about
 ---
 
 <div class="about-container">
-  <img src="./pic8.jpg" alt="Profile Picture" class="profile-pic">
+  <img src="./pic8.png" alt="Profile Picture" class="profile-pic">
   <div class="about-text">
     <h2>About Me</h2>
     <p>
