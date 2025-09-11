@@ -254,7 +254,7 @@ body.publications {
 .social-links {
   display: flex;
   justify-content: center;    /* center horizontally */
-  gap: 25px;
+  gap: 50px;
   margin: 20px auto;          /* add auto margins to center block itself */
   background: rgba(0, 0, 0, 0.1);  
   padding: 10px 15px;
@@ -274,7 +274,7 @@ body.publications {
 }
 
 .social-icon-no-invert {
-  width: 70px;
+  width: 140px;
   height: 70px;
   transition: transform 0.2s ease;
 }
