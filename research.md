@@ -11,7 +11,7 @@ bodyClass: research
     </p>
     <h3><span style="color: gold;">Reconstructing the potential profile of the CBC’s environment</span></h3>
     <p>
-      The idea is based on the fact that a time-varying Doppler shift of the CBC's centre-of-mass (CoM) will modulate the phase of the GW waveforms it emits with respect to those produced by an isolated CBC. Since the environments hosting these binaries have characteristic properties such as mass and potential profiles that govern the kinematics of the center of masses of these binaries, they imprint themselves on the emanated GWs (see Figure 1). Therefore, by studying the kinematics of the CoM of the CBC, one can profile the environment and also determine its formation channel at the level of an individual binary.
+      A time-varying Doppler shift of the CBC's centre-of-mass (CoM), e.g., a constant line-of-sight acceleration (LOSA), will modulate the phase of the GW waveforms it emits with respect to those produced by an isolated CBC. Since the environments hosting these binaries have characteristic properties such as mass and potential profiles that govern the kinematics of the center of masses of these binaries, they imprint themselves on the emanated GWs (see Figure 1). Therefore, by studying the kinematics of the CoM of the CBC, one can profile the environment and also determine its formation channel at the level of an individual binary.
       <figure style="text-align: center;">
         <img src="/assets/Research/Profiling_Depict.jpg" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
         <figcaption style="font-size:0.975rem; color:gray; margin-top:5px;">
