@@ -130,7 +130,7 @@ body.about {
 
 /* Research page layout */
 body.research {
-  background-image: url('/assets/bg_home.jpg');
+  background-image: url('/assets/bg_res.png');
   background-size: cover;       /* cover whole page */
   background-repeat: no-repeat;
   background-position: center;
@@ -153,7 +153,7 @@ body.research {
 
 /* Publications page layout */
 body.publications {
-  background-image: url('/assets/bg_home.jpg');
+  background-image: url('/assets/bg_pub2.png');
   background-size: cover;       /* cover whole page */
   background-repeat: no-repeat;
   background-position: center;
