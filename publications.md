@@ -5,20 +5,17 @@ bodyClass: publications
 ---
 <div class="publication-container">
   <div class="publication-text">
-### Short-author works
-
+    <h3><span style="color: gold;">Short-author works</span></h3>
+    <p>
 1. Sajad A. Bhat, Avinash Tiwari, Md Arif Shaikh, Shasvath J. Kapadia: "EECT: an Eccentricity Evolution Consistency Test to distinguish eccentric gravitational-wave signals from eccentricity mimickers" [arXiv:2508.14850](https://arxiv.org/abs/2508.14850).
 2. Avinash Tiwari, Prolay Chanda, Shasvath J. Kapadia, Susmita Adhikari, Aditya Vijaykumar, Basudeb Dasgupta: "Profiling Dark Matter Spikes with Gravitational Waves from Accelerated Binaries" [arXiv:2508.03803](https://arxiv.org/abs/2508.03803).
 3. Avinash Tiwari, Aditya Vijaykumar, Shasvath J. Kapadia, Shrobana Ghosh, Alex B. Nielsen: "A pipeline to search for signatures of line-of-sight acceleration in gravitational wave signals produced by compact binary coalescences" [arXiv:2506.22272](https://arxiv.org/abs/2506.22272).
 4. Avinash Tiwari, Aditya Vijaykumar, Shasvath J. Kapadia, Sourav Chatterjee, Giacomo Fragione: "Profiling stellar environments of gravitational wave sources" [arXiv:2407.15117](https://arxiv.org/abs/2407.15117).
 5. Avinash Tiwari, Aditya Vijaykumar, Shasvath J Kapadia, Giacomo Fragione, Sourav Chatterjee: "Accelerated binary black holes in globular clusters: forecasts and detectability in the era of space-based gravitational-wave detectors" [MNRAS](https://academic.oup.com/mnras/article/527/3/8586/7459933), [arXiv:2307.00930](https://arxiv.org/abs/2307.00930).
 6. Aditya Vijaykumar, Avinash Tiwari, Shasvath J Kapadia, KG Arun, Parameswaran Ajith: "Waltzing binaries: Probing the line-of-sight acceleration of merging compact objects with gravitational waves" [ApJ](https://iopscience.iop.org/article/10.3847/1538-4357/acd77d/meta), [arXiv:2302.09651](https://arxiv.org/abs/2302.09651).
-
-
-
-
-### Collaboration Papers
-
+    <p>
+    <h3><span style="color: gold;">Collaboration Papers</span></h3>
+    <p>
 1. A. G. Abac et al., “All-sky search for long-duration gravitational-wave transients in the first part of the fourth LIGO-Virgo-KAGRA Observing run,” Jul. 2025. [arXiv:2507.12282](https://arxiv.org/abs/2507.12282) [gr-qc].
 2. A. G. Abac et al., “All-sky search for short gravitational-wave bursts in the first part of the fourth LIGO-Virgo-KAGRA observing run,” Jul. 2025. [arXiv:2507.12374](https://arxiv.org/abs/2507.12374) [astro-ph.HE].
 3. A. G. Abac et al., “Directed searches for gravitational waves from ultralight vector boson clouds around merger remnant and galactic black holes during the first part of the fourth LIGO-Virgo-KAGRA observing run,” Sep. 2025. [arXiv:2509.07352](https://arxiv.org/abs/2509.07352) [gr-qc].
@@ -39,5 +36,6 @@ bodyClass: publications
 18. A. G. Abac et al., “A Search Using GEO600 for Gravitational Waves Coincident with Fast Radio Bursts from SGR 1935+2154,” Astrophys. J., vol. 977, no. 2, p. 255, 2024. doi: 10.3847/1538-4357/ad8de0. [arXiv:2410.09151](https://arxiv.org/abs/2410.09151) [astro-ph.HE].
 19. A. G. Abac et al., “Observation of Gravitational Waves from the Coalescence of a 2.5–4.5 M⊙ Compact Object and a Neutron Star,” Astrophys. J. Lett., vol. 970, no. 2, p. L34, 2024. doi: 10.3847/2041-8213/ad5beb. [arXiv:2404.04248](https://arxiv.org/abs/2404.04248) [astro-ph.HE].
 20. A. G. Abac et al., “Ultralight vector dark matter search using data from the KAGRA O3GK run,” Phys. Rev. D, vol. 110, no. 4, p. 042 001, 2024. doi: 10.1103/PhysRevD.110.042001. [arXiv:2403.03004](https://arxiv.org/abs/2403.03004) [astro-ph.CO].
+      <p>
   <div>
 <div>
