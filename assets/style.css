@@ -188,13 +188,13 @@ body.publications {
   max-width: 900px;
 }
 
-.research-text a {
+.publications-text a {
   color: #ffcc00;   
   font-size: 25px;  
   text-decoration: none;
 }
 
-.research-text a:hover {
+.publications-text a:hover {
   color: #ff6600;   /* yellow on hover */
 }
 
