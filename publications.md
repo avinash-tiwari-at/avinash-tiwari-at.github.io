@@ -7,7 +7,7 @@ bodyClass: publications
   <div class="publication-text">
     <h3><span style="color: gold;">Short-author works</span></h3>
     <p>
-    1. Sajad A. Bhat, Avinash Tiwari, Md Arif Shaikh, Shasvath J. Kapadia: "EECT: an Eccentricity Evolution Consistency Test to distinguish eccentric gravitational-wave signals from eccentricity mimickers" [arXiv:2508.14850](https://arxiv.org/abs/2508.14850).<br>
+    1. Sajad A. Bhat, Avinash Tiwari, Md Arif Shaikh, Shasvath J. Kapadia: "EECT: an Eccentricity Evolution Consistency Test to distinguish eccentric gravitational-wave signals from eccentricity mimickers" arXiv:<a href="https://arxiv.org/abs/2508.14850" target="_blank">2508.14850</a>.<br>
     2. Avinash Tiwari, Prolay Chanda, Shasvath J. Kapadia, Susmita Adhikari, Aditya Vijaykumar, Basudeb Dasgupta: "Profiling Dark Matter Spikes with Gravitational Waves from Accelerated Binaries" [arXiv:2508.03803](https://arxiv.org/abs/2508.03803).<br>
     3. Avinash Tiwari, Aditya Vijaykumar, Shasvath J. Kapadia, Shrobana Ghosh, Alex B. Nielsen: "A pipeline to search for signatures of line-of-sight acceleration in gravitational wave signals produced by compact binary coalescences" [arXiv:2506.22272](https://arxiv.org/abs/2506.22272).<br>
     4. Avinash Tiwari, Aditya Vijaykumar, Shasvath J. Kapadia, Sourav Chatterjee, Giacomo Fragione: "Profiling stellar environments of gravitational wave sources" [arXiv:2407.15117](https://arxiv.org/abs/2407.15117).<br>
