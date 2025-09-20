@@ -135,7 +135,7 @@ body.research {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed; /* optional parallax effect */
-  color: #111;         /** #fff */
+  color: #fff;         /** #111 */
   font-size: 25px;
 }
 
@@ -169,7 +169,7 @@ body.publications {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed; /* optional parallax effect */
-  color: #111;         /** #fff */
+  color: #fff;         /** #111 */
   font-size: 25px;
 }
 
