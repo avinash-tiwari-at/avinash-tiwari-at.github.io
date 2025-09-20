@@ -144,7 +144,7 @@ body.research {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  background: rgba(0, 0, 255, 0.3);   /* semi-transparent blue */
+  background: rgba(128, 128, 128, 0.3);
   backdrop-filter: blur(6px);          /* optional blur effect */
 }
 
@@ -178,9 +178,8 @@ body.publications {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-top: 40px;
-  background: rgba(0, 0, 255, 0.3);   /* semi-transparent blue */
-  backdrop-filter: blur(6px);          /* optional blur effect */
+  background: rgba(128, 128, 128, 0.3);
+  backdrop-filter: blur(6px);         
 }
 
 .publications-text {
