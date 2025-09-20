@@ -137,7 +137,6 @@ body.research {
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
   font-size: 25px;
-  background: rgba(0, 0, 0, 0.3);
 }
 
 .research-container {
@@ -150,6 +149,7 @@ body.research {
 
 .research-text {
   max-width: 900px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
 /* Publications page layout */
@@ -161,7 +161,6 @@ body.publications {
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
   font-size: 25px;
-  background: rgba(0, 0, 0, 0.3);
 }
 
 .publications-container {
@@ -170,6 +169,11 @@ body.publications {
   justify-content: center;
   gap: 20px;
   margin-top: 40px;
+}
+
+.publications-text {
+  max-width: 900px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
 /* Gallery */
