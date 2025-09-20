@@ -144,7 +144,7 @@ body.research {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0,, 0.25);
   backdrop-filter: blur(6px);          /* optional blur effect */
 }
 
@@ -178,7 +178,7 @@ body.publications {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  background: rgba(255,255,255, 0.25);
+  background: rgba(0, 0, 0,, 0.25);
   backdrop-filter: blur(6px);         
 }
 
