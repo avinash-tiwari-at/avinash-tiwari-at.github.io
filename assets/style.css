@@ -87,8 +87,8 @@ body.home {
 }
 
 .home-text a {
-  color: #ffcc00;   /* light blue, visible on dark bg */
-  font-size: 25px;  /* smaller than your big default text */
+  color: #ffcc00;   
+  font-size: 25px;  
   text-decoration: none;
 }
 
@@ -145,11 +145,22 @@ body.research {
   justify-content: center;
   gap: 20px;
   margin-top: 40px;
+  background: rgba(0, 0, 255, 0.2);   /* semi-transparent blue */
+  backdrop-filter: blur(6px);          /* optional blur effect */
 }
 
 .research-text {
   max-width: 900px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.research-text a {
+  color: #ffcc00;   
+  font-size: 25px;  
+  text-decoration: none;
+}
+
+.research-text a:hover {
+  color: #ff6600;   /* yellow on hover */
 }
 
 /* Publications page layout */
@@ -169,11 +180,22 @@ body.publications {
   justify-content: center;
   gap: 20px;
   margin-top: 40px;
+  background: rgba(0, 0, 255, 0.2);   /* semi-transparent blue */
+  backdrop-filter: blur(6px);          /* optional blur effect */
 }
 
 .publications-text {
   max-width: 900px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.research-text a {
+  color: #ffcc00;   
+  font-size: 25px;  
+  text-decoration: none;
+}
+
+.research-text a:hover {
+  color: #ff6600;   /* yellow on hover */
 }
 
 /* Gallery */
