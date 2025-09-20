@@ -13,6 +13,13 @@ layout: default
   <img src="/assets/photos/photo5.JPG" alt="Photo 5" onclick="openLightbox(this)">
   <img src="/assets/photos/photo6.JPG" alt="Photo 6" onclick="openLightbox(this)">
   <img src="/assets/photos/photo7.jpg" alt="Photo 7" onclick="openLightbox(this)">
+  <img src="/assets/photos/photo8.jpg" alt="Photo 8" onclick="openLightbox(this)">
+  <img src="/assets/photos/photo9.jpg" alt="Photo 9" onclick="openLightbox(this)">
+  <img src="/assets/photos/photo10.jpg" alt="Photo 10" onclick="openLightbox(this)">
+  <img src="/assets/photos/photo11.jpg" alt="Photo 11" onclick="openLightbox(this)">
+  <img src="/assets/photos/photo12.jpg" alt="Photo 12" onclick="openLightbox(this)">
+  <img src="/assets/photos/photo13.jpg" alt="Photo 13" onclick="openLightbox(this)">
+  <img src="/assets/photos/photo14.jpg" alt="Photo 14" onclick="openLightbox(this)">
 </div>
 
 <!-- Lightbox -->
