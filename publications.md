@@ -3,7 +3,8 @@ layout: default
 title: Publications
 bodyClass: publications
 ---
-
+<div class="publication-container">
+  <div class="publication-text">
 ### Short-author works
 
 1. Sajad A. Bhat, Avinash Tiwari, Md Arif Shaikh, Shasvath J. Kapadia: "EECT: an Eccentricity Evolution Consistency Test to distinguish eccentric gravitational-wave signals from eccentricity mimickers" [arXiv:2508.14850](https://arxiv.org/abs/2508.14850).
@@ -38,3 +39,5 @@ bodyClass: publications
 18. A. G. Abac et al., “A Search Using GEO600 for Gravitational Waves Coincident with Fast Radio Bursts from SGR 1935+2154,” Astrophys. J., vol. 977, no. 2, p. 255, 2024. doi: 10.3847/1538-4357/ad8de0. [arXiv:2410.09151](https://arxiv.org/abs/2410.09151) [astro-ph.HE].
 19. A. G. Abac et al., “Observation of Gravitational Waves from the Coalescence of a 2.5–4.5 M⊙ Compact Object and a Neutron Star,” Astrophys. J. Lett., vol. 970, no. 2, p. L34, 2024. doi: 10.3847/2041-8213/ad5beb. [arXiv:2404.04248](https://arxiv.org/abs/2404.04248) [astro-ph.HE].
 20. A. G. Abac et al., “Ultralight vector dark matter search using data from the KAGRA O3GK run,” Phys. Rev. D, vol. 110, no. 4, p. 042 001, 2024. doi: 10.1103/PhysRevD.110.042001. [arXiv:2403.03004](https://arxiv.org/abs/2403.03004) [astro-ph.CO].
+  <div>
+<div>
