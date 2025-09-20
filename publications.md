@@ -3,8 +3,8 @@ layout: default
 title: Publications
 bodyClass: publications
 ---
-<div class="publication-container">
-  <div class="publication-text">
+<div class="publications-container">
+  <div class="publications-text">
     <h3><span style="color: gold;">Short-author works</span></h3>
     <p>
     1. Sajad A. Bhat, Avinash Tiwari, Md Arif Shaikh, Shasvath J. Kapadia: "EECT: an Eccentricity Evolution Consistency Test to distinguish eccentric gravitational-wave signals from eccentricity mimickers" arXiv:<a href="https://arxiv.org/abs/2508.14850" target="_blank">2508.14850</a>.<br>
