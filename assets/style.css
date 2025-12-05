@@ -298,6 +298,8 @@ body.publications {
   padding: 10px 15px;
   border-radius: 12px;
   backdrop-filter: blur(8px);
+  width: 100%;          
+  box-sizing: border-box;
 }
 
 .social-icon {
