@@ -71,7 +71,7 @@ body.home {
   justify-content: center; /* center whole block horizontally */
   gap: 30px;             
   /*margin-top: 40px;*/
-  /*background: rgba(0, 0, 0, 0.1);*/
+  background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
   text-align: left;      /* keep text left-aligned by default */
 }
