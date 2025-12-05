@@ -4,6 +4,8 @@ title: Home
 bodyClass: home
 ---
 
+<div class="home-blur"></div>
+
 <div class="home-container">
   <img src="./pic9.jpg" alt="Profile Picture" class="profile-pic">
   
