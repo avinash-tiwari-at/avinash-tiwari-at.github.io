@@ -5,7 +5,7 @@ bodyClass: about
 ---
 
 <div class="about-container">
-  <img src="./pic6.jpg" alt="Profile Picture" class="profile-pic">
+  <img src="./pic2.jpg" alt="Profile Picture" class="profile-pic">
   <div class="about-text">
     <h3>About Me</h3>
     <p>
@@ -15,7 +15,7 @@ bodyClass: about
       I am currently a Senior Research Fellow at the Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune.
     </p>
     <p>
-      Apart from studies, my day-to-day routnie includes listening music, watching and (sometimes) playing cricket, and often doing photography.  
+      Apart from studies, my day-to-day routine includes listening to music, watching and (sometimes) playing cricket, and often doing photography.  
     </p>
   </div>
 </div>
