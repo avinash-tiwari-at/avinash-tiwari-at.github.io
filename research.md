@@ -18,7 +18,7 @@ bodyClass: research
         A cartoon depicting the comparison between the waveforms of GWs emitted from a binary in the absence of external gravitational fields (orange) and a binary under the influence of an external gravitational field (blue) sourced by the combination of a supermassive black hole (SMBH) and some mass distribution around it. 
         </figcaption>
       </figure>
-      This technique further tells us about the formation channel of the CBC as a byproduct. This technique can further be used to profile the dark matter (DM) spikes and probe the nature of the DM. See the relevant papers on: <a href="https://avinash-tiwari-at.github.io/publications.html" target="_blank">Publications</a>
+      This technique tells us about the formation channel of the CBC as a byproduct and can further be used to profile the dark matter (DM) spikes and probe the nature of the DM. See the relevant papers on: <a href="https://avinash-tiwari-at.github.io/publications.html" target="_blank">Publications</a>
     </p>
   </div>
 </div>
