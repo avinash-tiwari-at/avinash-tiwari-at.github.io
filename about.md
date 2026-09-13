@@ -9,7 +9,7 @@ bodyClass: about
   <div class="about-text">
     <h3>About Me</h3>
     <p>
-      I was born in Baidaura Mashrik, a small village in the Shravasti district of Uttar Pradesh. I completed my early schooling at Jagat Jeet Inter College in my hometown, Ikauna. I then moved to Allahabad (now Prayagraj) for higher studies and earned my undergraduate degree in Physics, Mathematics, and Computer Science from the University of Allahabad. After that, I pursued a Master’s in Physics at the Indian Institute of Technology (IIT) Guwahati.
+      I was born in Baidaura Mashrik, a small village in the <a href="https://en.wikipedia.org/wiki/Shravasti" target="_blank">Shravasti</a> (श्रावस्ती, the capital of the ancient Indian kingdom of Kosala) district of <a href="https://en.wikipedia.org/wiki/Uttar_Pradesh" target="_blank">Uttar Pradesh</a>. I completed my early schooling at Jagat Jeet Inter College in my hometown, Ikauna. I then moved to Allahabad (now Prayagraj) for higher studies and earned my undergraduate degree in Physics, Mathematics, and Computer Science from the University of Allahabad. After that, I pursued a Master’s in Physics at the Indian Institute of Technology (IIT) Guwahati.
     </p>
     <p>
       I am currently a Senior Research Fellow at the Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune.
