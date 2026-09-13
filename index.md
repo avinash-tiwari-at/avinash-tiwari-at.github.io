@@ -21,7 +21,7 @@ bodyClass: home
       For more details about my work, see my <a href="https://avinash-tiwari-at.github.io/research.html" target="_blank">Research</a> page.
     </p>
     <p>
-      <strong>Contact:</strong> You can reach me at <a href="mailto:avinash.tiwari@iucaa.in">avinash.tiwari@iucaa.in</a> or <a href="mailto:itsmeavinasht@gmail.com">itsmeavinasht@gmail.com</a>.
+      <strong>Contact:</strong> You can reach me at <a href="mailto:avinash.tiwari@iucaa.in">avinash.tiwari@iucaa.in</a> | <a href="mailto:itsmeavinasht@gmail.com">itsmeavinasht@gmail.com</a>.
     </p>
   </div>
 </div>
