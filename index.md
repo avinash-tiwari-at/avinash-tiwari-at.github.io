@@ -10,7 +10,7 @@ bodyClass: home
   <div class="home-text">
     <h3>Welcome | नमस्ते</h3>
     <p>
-      My name is Avinash Tiwari. I am a Ph.D. student at the Inter-University Centre for Astronomy and Astrophysics (<a href="https://www.iucaa.in/en/" target="blank">IUCAA</a>), Pune. Here I work with Prof. <a href="https://shasvath-kapadia.github.io/home/" target="_blank">Shasvath J. Kapadia</a> on several aspects of gravitational waves (GWs) emanating from compact binary coalescences (CBCs). Broadly, my research revolves around three main directions: 
+      My name is Avinash Tiwari. I am a Ph.D. student at the Inter-University Centre for Astronomy and Astrophysics (<a href="https://www.iucaa.in/en/" target="blank">IUCAA</a>), Pune, where I work with Prof. <a href="https://shasvath-kapadia.github.io/home/" target="_blank">Shasvath J. Kapadia</a> on several aspects of gravitational waves (GWs) emanating from compact binary coalescences (CBCs). Broadly, my research revolves around three main directions: 
     </p>
     <ul>
       <li>Probing the merger environments on a single-event basis.</li>
@@ -19,6 +19,9 @@ bodyClass: home
     </ul>
     <p>
       For more details about my work, see my <a href="https://avinash-tiwari-at.github.io/research.html" target="_blank">Research</a> page.
+    </p>
+    <p>
+      <strong>Contact:</strong> You can reach me at <a href="mailto:avinash.tiwari@iucaa.in">avinash.tiwari@iucaa.in</a> or <a href="mailto:itsmeavinasht@gmail.com">itsmeavinasht@gmail.com</a>.
     </p>
   </div>
 </div>
