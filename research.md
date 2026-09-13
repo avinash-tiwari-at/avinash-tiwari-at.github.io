@@ -7,7 +7,7 @@ bodyClass: research
 <div class="research-container">
   <div class="research-text">
     <p>
-      Gravitational waves (GWs) are propagating perturbations in the spacetime metric driven by the rapid time evolution of an asymmetric mass distribution. Among the various sources of GWs, compact binary coalescences (CBCs) are of primary observational importance—in fact, all GW events detected by the LVK network so far have been produced by these merging pairs. My research primarily focuses on the GWs emanating from these CBCs. I mainly construct waveforms for waltzing binaries by studying their center-of-mass kinematics and the resulting waveform distortions to determine their formation channels and profile the environments that nurture them. Broadly, my work revolves around three main directions: 
+      Gravitational waves (GWs) are propagating perturbations in the spacetime metric driven by the rapid time evolution of an asymmetric mass distribution. Among the various sources of GWs, compact binary coalescences (CBCs) are of primary observational importance—in fact, all GW events detected by the LVK network so far have been produced by these merging pairs. My research focuses on the GWs emanating from these CBCs. I mainly construct waveforms for waltzing binaries by studying their center-of-mass kinematics and the resulting waveform distortions to determine their formation channels and profile the environments that nurture them. Broadly, my work revolves around three main directions: 
     </p>
     <ul>
       <li>Probing the merger environments on a single-event basis.</li>
