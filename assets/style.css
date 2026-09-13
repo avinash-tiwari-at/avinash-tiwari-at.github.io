@@ -146,6 +146,10 @@ body.about {
   max-width: 600px;
 }
 
+.about-text a {
+  color: #ffcc00;
+}
+
 /* Research page layout */
 body.research {
   background-image: url('/assets/bg_home.jpg');
