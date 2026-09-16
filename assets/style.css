@@ -335,6 +335,13 @@ body.publications {
   }
 }
 
+@media (max-width: 768px) {
+  .about-container .profile-pic {
+    position: relative; /* Turns off the sticky effect for phones */
+    top: 0;
+  }
+}
+
 .social-links {
   display: flex;
   justify-content: center;    /* center horizontally */
