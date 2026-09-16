@@ -33,16 +33,16 @@ body {
 }
 
 .site-name {
-  font-size: clamp(20px, 2.5vw, 30px);                /* 30px; */
+  font-size: clamp(20px, 1.5vw, 30px);                /* 30px; */
   font-weight: bold;
   color: white;                   /* bright text for dark background */
 }
 
 .navbar-right a {
-  margin-left: 100px;              /* spacing between links */
+  margin-left: 3vw;              /* 100px */
   color: #ffffff;
   text-decoration: none;
-  font-size: clamp(14px, 2vw, 20px);
+  font-size: clamp(14px, 1.2vw, 20px);
 }
 
 /* Hide hamburger button on desktop */
@@ -72,7 +72,8 @@ body.home {
   display: flex;
   align-items: flex-start;   /* center */
   justify-content: center; /* center whole block horizontally */
-  gap: 30px;             
+  gap: 30px;   
+  padding-top: 50px;
   /*margin-top: 40px;*/
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
