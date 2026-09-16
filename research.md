@@ -7,7 +7,7 @@ bodyClass: research
 <div class="research-container">
   <div class="research-text">
     <p>
-      Gravitational waves (GWs) are propagating perturbations in the spacetime metric driven by the rapid time evolution of an asymmetric mass distribution. Among the various sources of GWs, compact binary coalescences (CBCs) are of primary observational importance—in fact, all GW events detected by the LVK network so far have been produced by these merging pairs. My research focuses on the GWs emanating from these CBCs. I mainly construct waveforms for waltzing binaries by studying their center-of-mass kinematics and the resulting waveform distortions to determine their formation channels and profile the environments that nurture them. 
+      Gravitational waves (GWs) are propagating perturbations in the spacetime metric driven by the rapid time evolution of an asymmetric mass distribution. Among the various sources of GWs, compact binary coalescences (CBCs) are of primary observational importance. In fact, all GW events detected by the LIGO-Virgo-KAGRA (LVK) network of detectors so far have originated from these merging pairs. My research focuses on the GWs emanating from CBCs. I mainly construct waveforms for waltzing binaries by studying their center-of-mass kinematics and the resulting waveform distortions to determine their formation channels and profile the environments that nurture them. 
     </p>
     <p>
       Broadly, my work revolves around three main directions: 
@@ -15,10 +15,10 @@ bodyClass: research
     <ul>
       <li>Probing the merger environments on a single-event basis.</li>
       <li>Developing model-independent tests to characterize the GW signals.</li>
-      <li>Probing the early Universe using GWs and 21-cm cosmology.</li>
+      <li>Probing the early Universe using GW astronomy and 21-cm cosmology.</li>
     </ul>
     <p>
-      Below I briefly describe my work:
+      Below, I briefly describe these research directions:
     </p>
     <h3><span style="color: gold;">Waltzing Binaries and reconstructing the potential profile of their environment</span></h3>
     <p>
