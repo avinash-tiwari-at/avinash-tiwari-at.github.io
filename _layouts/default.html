@@ -1,11 +1,25 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags must go inside the head -->
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/style.css">
+  
+  <!-- MathJax Configuration (Allows $ for inline math and $$ for block math) -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <!-- MathJax Core Scripts -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   <style>
     /* Smooth dropdown for mobile menu */
     @media (max-width: 768px) {
@@ -42,9 +56,6 @@
       }
     }
   </style>
-  
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body class="{{ page.bodyClass }}">
