@@ -74,6 +74,7 @@ body.home {
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
   text-align: left;      /* keep text left-aligned by default */
+  min-height: calc(100vh - 80px);
 }
 
 .home-blur {
@@ -131,6 +132,7 @@ body.about {
   /*margin-top: 40px;*/
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
+  min-height: calc(100vh - 80px);
 }
 
 .about-container .profile-pic {
@@ -167,7 +169,8 @@ body.research {
   justify-content: center;
   gap: 20px;
   background: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6px);          /* optional blur effect */
+  backdrop-filter: blur(6px);          
+  min-height: calc(100vh - 80px);
 }
 
 .research-text {
@@ -201,7 +204,8 @@ body.publications {
   justify-content: center;
   gap: 20px;
   background: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6px);         
+  backdrop-filter: blur(6px);
+  min-height: calc(100vh - 80px);
 }
 
 .publications-text {
