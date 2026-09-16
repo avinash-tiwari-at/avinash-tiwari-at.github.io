@@ -79,6 +79,7 @@ body.home {
   backdrop-filter: blur(6px);
   text-align: left;      /* keep text left-aligned by default */
   min-height: calc(100vh - 80px);
+  flex-wrap: wrap;
 }
 
 .home-blur {
@@ -352,6 +353,7 @@ body.publications {
   border-radius: 12px;
   margin-top: 0;
   backdrop-filter: blur(6px);
+  width: 100%;
 }
 
 .social-icon {
