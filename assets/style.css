@@ -62,7 +62,7 @@ body.home {
   background-position: center;
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* Home Page Layout */
@@ -72,8 +72,8 @@ body.home {
   display: flex;
   align-items: flex-start;   /* center */
   justify-content: center; /* center whole block horizontally */
-  gap: 30px;   
-  padding-top: 50px;
+  gap: 30px;  
+  padding-top: 30px;
   /*margin-top: 40px;*/
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
@@ -100,6 +100,8 @@ body.home {
   object-fit: cover;
   object-position: center; 
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 120px;
 }
 
 .home-text {
@@ -109,7 +111,7 @@ body.home {
 
 .home-text a {
   color: #ffcc00;   
-  font-size: 25px;  
+  font-size: 20px;  
   text-decoration: none;
 }
 
@@ -125,12 +127,13 @@ body.about {
   background-position: center;
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .about-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start; 
+  padding-top: 30px;
   justify-content: center;
   gap: 20px;
   /*margin-top: 40px;*/
@@ -146,6 +149,8 @@ body.about {
   object-fit: cover;
   object-position: center;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 120px;
 }
 
 .about-text {
@@ -154,6 +159,12 @@ body.about {
 
 .about-text a {
   color: #ffcc00;
+  font-size: 20px;  
+  text-decoration: none;
+}
+
+.about-text a:hover {
+  color: #ff6600;   /* yellow on hover */
 }
 
 /* Research page layout */
@@ -164,12 +175,13 @@ body.research {
   background-position: center;
   background-attachment: fixed; /* optional parallax effect */
   color: #fff;         /** #111 */
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .research-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start; 
+  padding-top: 30px;
   justify-content: center;
   gap: 20px;
   background: rgba(0, 0, 0, 0.1);
@@ -183,7 +195,7 @@ body.research {
 
 .research-text a {
   color: #ffcc00;   
-  font-size: 25px;  
+  font-size: 20px;  
   text-decoration: none;
 }
 
@@ -204,7 +216,8 @@ body.publications {
 
 .publications-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start; 
+  padding-top: 30px;
   justify-content: center;
   gap: 20px;
   background: rgba(0, 0, 0, 0.1);
