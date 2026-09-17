@@ -34,13 +34,14 @@ bodyClass: research
       </figure>
     </p>
     <p>
-      In the context of a circular or eccentric outer orbit of the CBC's CoM, these effects (higher-order derivatives of the LOSV) can be thought of as approximations to the LOSV in the limit where the observation duration is much shorter than the outer orbital period, which is not always satisfied. When the observation duration is comparable to or greater than the outer orbital period, a periodic non-relativistic LOSV in these orbits leads to modulations at 4PN order. In such scenarios, the modulated and unmodulated waveforms go in and out of phase repeatedly. The GIF below shows the evolution of the modulated and unmodulated GW strains for a fiducial $10-10 \, M_{\odot}$ BBH perturbed by an $8 \, M_{\odot}$ BH at a distance of 53158.5 km in a circular outer orbit. 
+      In the context of a circular or eccentric outer orbit of the CBC's CoM, in the above scenario, we approximate the LOSV by its Taylor expansion in the limit where the observation duration is much shorter than the outer orbital period. However, this is not always satisfied. When the observation duration is comparable to or greater than the outer orbital period, a periodic non-relativistic LOSV in these orbits leads to modulations at 4PN order. In such scenarios, the modulated and unmodulated waveforms go in and out of phase repeatedly. The GIF below shows the evolution of the modulated and unmodulated GW strains for a fiducial $10-10 \, M_{\odot}$ BBH perturbed by an $8 \, M_{\odot}$ BH at a distance of 53158.5 km in a circular orbit.  
       <figure style="text-align: center;">
         <img src="/assets/Research/gw_insp_BH_as_third_dop_compressed.gif" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
         <figcaption style="font-size:0.975rem; color:gray; margin-top:5px;">
         A GIF depicting a three-body system consisting of a BBH and a BH orbiting their barycentre (top panel) and corresponding waveforms for the isolated BBH and BBH-BH scenario, accounting for the Doppler shift due to a time-varying line-of-sight velocity. 
         </figcaption>
       </figure>
+      These modulations become particularly important for such three-body systems and CBCs in close outer orbits around SMBHs. In addition, these modulations can also be used to detect and characterize the circum-CBC exoplanets.
     </p>
   </div>
 </div>
