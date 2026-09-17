@@ -43,6 +43,16 @@ bodyClass: research
       </figure>
       These modulations become particularly important for such three-body systems and CBCs in close outer orbits around SMBHs. In addition, these modulations can also be used to detect and characterize the circum-CBC exoplanets.
     </p>
+    <h3><span style="color: gold;">Eccentricity Evolution Consistency Test (EECT)</span></h3>
+    <p>
+  Eccentric CBC detections are valuable as they can provide insights into the environments that nurture CBCs. However, a number of physical and <em>beyond-GR</em> effects could imitate, or be mimicked by, eccentric CBCs. The standard approach to ascertain that a detected CBC is eccentric is to employ Bayesian model selection, where the eccentric CBC hypothesis is compared against other hypotheses. Such an approach is not only computationally intensive and time-consuming, but could also be misleading if none of the models under consideration represents the true model. Alternatively, one can use a simple but powerful method, the <strong>eccentricity evolution consistency test (EECT)</strong>, to directly confirm or reject the eccentric hypothesis without needing to compare it against a plethora of other possible hypotheses. The key idea is that while spurious nonzero values of eccentricity at some reference frequency could be acquired when a non-eccentric CBC with additional effects is recovered with an eccentric CBC waveform model, the evolution of eccentricity with frequency will in general not be mimicked. The method compares the eccentricity recovered at a low reference frequency (e.g., 10 Hz), evolved to higher frequencies assuming GR, with eccentricities recovered at those same higher frequencies. A discrepancy between the two eccentricities at any reference frequency would violate the EECT and indicate the presence of a mimicker. The figure below shows an example of a truly eccentric signal (<strong>left panel</strong>) and a mimicker (<strong>right panel</strong>), demonstrating that this test can distinguish between the two. Specifically, if the eccentricity deviation &delta;<sub>e</sub> is consistent with zero within the 68% credible interval at all reference frequencies, the signal is truly eccentric; otherwise, it is a mimicker.
+      <figure style="text-align: center;">
+        <img src="/assets/Research/EECT_Example.jpg" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
+        <figcaption style="font-size:0.975rem; color:gray; margin-top:5px;">
+        <strong>LEFT PANEL<strong>: top panel shows violins representing eccentricity deviation $\delta_e$ plotted as a function of GW frequency for a null test wherein we inject an eccentric GW signal using the TaylorF2Ecc waveform model in zero noise and recover the binary parameters of the GW signal using the same waveform model, while the bottom panel shows the individual GR-predicted (left-half) and observed (right-half) eccentricity half-violins plotted as a function of GW frequency. <strong>RIGHT PANEL<strong>: violins representing  $\delta_e$ plotted against GW frequency for the case of non-spinning quasi-circular zero-noise injection corrected for the LOSA effect, with LOSA $= - 2.25 \times 10^{-4} \, \rm s^{-1}$. 
+        </figcaption>
+      </figure>
+    </p>
   </div>
 </div>
 
