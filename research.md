@@ -54,7 +54,7 @@ bodyClass: research
       </figure>
     </p>
     <p>
-      The Figure below shows the application of EECT to GW200105, a CBC event consisting of a neutron star and a BH, observed in LIGO–Virgo–KAGRA’s third observing run. Notice that it satisfies EECT within 68% confidence and therefore lends complementary support in favor of the eccentricity hypothesis, while also providing a novel test of the consistency of $e(f)$ with GR.
+      The Figure below shows the application of EECT to GW200105, a CBC event consisting of a neutron star and a BH, observed in LVK's third observing run. Notice that it satisfies EECT within 68\% confidence and therefore lends complementary support in favor of the eccentricity hypothesis, while also providing a novel test of the consistency of $e(f)$ with GR.
       <figure style="text-align: center;">
         <img src="/assets/Research/EECT_GW200105.jpg" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
         <figcaption style="font-size:0.975rem; color:gray; margin-top:5px;">
