@@ -310,30 +310,41 @@ body.publications {
 
 @media (max-width: 768px) {
   .home-container {
-    flex-direction: column;   
-    align-items: center;      
-    text-align: center;       
-    padding-bottom: 20px;     /* A smaller bumper for mobile */
+    flex-direction: column !important;
+    align-items: center !important;  
+    justify-content: flex-start !important; /* Pushes content naturally from top to bottom */
+    text-align: center;
+    padding-top: 40px; 
+    padding-bottom: 40px;
+    height: auto !important; /* Prevents overlap if text is longer than screen */
+  }
+
+  /* Un-sticks the profile picture on phones */
+  .profile-pic {
+    position: relative !important;
+    top: 0 !important;
+    margin-bottom: 10px;
   }
 
   .home-text {
-    margin-top: 15px;
+    margin-top: 10px;
   }
   
+  /* Forces the icons to fall back into normal order */
   .social-links {
-    position: relative; 
-    bottom: auto;       
-    left: auto;         
-    transform: none;    
-    
-    /* ADD THIS: 'auto' forces the icons to push all the way to the bottom of the container! */
-    margin-top: auto;   
+    position: static !important; /* Absolutely forces it into the normal HTML flow */
+    transform: none !important;    
+    margin-top: 40px !important; /* Good spacing below the text */
+    width: 100% !important;
+    justify-content: center !important; /* Keeps icons centered */
   }
 }
+
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
 
   .about-text {
