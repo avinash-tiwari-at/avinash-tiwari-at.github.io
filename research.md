@@ -22,14 +22,23 @@ bodyClass: research
     </p>
     <h3><span style="color: gold;">Waltzing Binaries and reconstructing the potential profile of their environment</span></h3>
     <p>
-      Unlike a constant redshift (e.g., cosmological redshift), which is degenerate with the masses of CBCs, a time-varying Doppler shift of a CBC's centre-of-mass (CoM), such as one produced by a constant line-of-sight acceleration (LOSA), will modulate the phase of the GW waveforms it emits with respect to the one produced by an isolated CBC. In fact, any higher-order derivative of the line-of-sight velocity (LOSV) will do so. Specifically, the $n^{th}$- order derivative of the LOSV leads to modulations in GW signals at $-4n$ post-Newtonian (PN) order; e.g., LOSA will modulate the GW signal at $-4$ PN order. Since the environments hosting these binaries have characteristic properties such as mass and potential profiles that govern the kinematics of the CoM of these binaries, they imprint themselves on the emitted GWs (see Figure below). Therefore, by studying the kinematics of the CoM of the CBC, one can profile the environment and also determine its formation channel at the level of an individual binary.
+      The astrophysical processes that govern CBCs are at best partially understood, if at all. Several models have been proposed to explain their origin, but ascertaining the provenance and evolution mechanism of a given CBC is very challenging because these cannot generally be localized to their positions in the sky and, most of the time, lack additional electromagnetic signatures. While information about putative formation channels on a population level can still be speculated based on the intrinsic properties of the objects, such as mass ratios, eccentricities, and spins, one cannot, in general, pinpoint a formation channel on a single-event basis. A direct, event-by-event probe of the merger environment using GWs alone is therefore of great importance.
+    </p>
+    <p>
+      Unlike a constant redshift (e.g., cosmological redshift), which is degenerate with the masses of CBCs, a time-varying Doppler shift of a CBC's centre-of-mass (CoM), such as one produced by a constant line-of-sight acceleration (LOSA), will modulate the GW signal it emits with respect to the one produced by an isolated CBC. In fact, any higher-order derivative of the line-of-sight velocity (LOSV) will do so. Specifically, the $n^{th}$- order derivative of the LOSV leads to modulations in GW signals at $-4n$ post-Newtonian (PN) order; e.g., LOSA will modulate the GW signal at $-4$ PN order. Since the environments hosting these binaries have characteristic properties such as mass and potential profiles that govern the kinematics of the CoM of these binaries, they imprint themselves on the emitted GWs (see Figure below). Therefore, by studying the kinematics of the CoM of the CBC, one can profile the environment and also determine its formation channel at the level of an individual binary.
       <figure style="text-align: center;">
         <img src="/assets/Research/Profiling_Depict.jpg" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
         <figcaption style="font-size:0.975rem; color:gray; margin-top:5px;">
         A cartoon comparing the waveforms of GWs emitted from a binary in the absence of external gravitational fields (orange) and a binary under the influence of an external gravitational field (blue) sourced by a supermassive black hole (SMBH) and surrounding mass distribution. 
         </figcaption>
       </figure>
-      This technique reveals the CBC formation channel as a byproduct and can also be used to profile dark matter (DM) spikes and probe the nature of DM. See the relevant papers on: <a href="https://avinash-tiwari-at.github.io/publications.html" target="_blank">Publications</a>
+      This technique reveals the CBC formation channel as a byproduct and can also be used to profile dark matter (DM) spikes and probe the nature of DM as well. See the relevant papers in <a href="https://avinash-tiwari-at.github.io/publications.html" target="_blank">Publications</a>
+    </p>
+    <p>
+      In the context of a circular or eccentric outer orbit —
+henceforth COO and EOO, respectively — of the CoM of the CBC, these effects can be thought of
+as approximations to the LOS velocity in the limit: observation duration ≪ period of the outer
+orbit. 
       <figure style="text-align: center;">
         <img src="/assets/Research/gw_insp_BH_as_third_dop_compressed.gif" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
         <figcaption style="font-size:0.975rem; color:gray; margin-top:5px;">
