@@ -35,7 +35,7 @@ bodyClass: research
       This technique reveals the CBC formation channel as a byproduct and can also be used to profile dark matter (DM) spikes and probe the nature of DM as well. See the relevant papers in <a href="https://avinash-tiwari-at.github.io/publications.html" target="_blank">Publications</a>
     </p>
     <p>
-      "In the context of a circular or eccentric outer orbit of the CBC's CoM, these effects (higher-order derivatives of the LOSV) can be thought of as approximations to the LOSV in the limit where the observation duration is much shorter than the outer orbital period. However, this condition is not always satisfied, and a periodic non-relativistic LOSV in these orbits leads to modulations at 4PN order.
+      In the context of a circular or eccentric outer orbit of the CBC's CoM, these effects (higher-order derivatives of the LOSV) can be thought of as approximations to the LOSV in the limit where the observation duration is much shorter than the outer orbital period. However, this condition is not always satisfied, and a periodic non-relativistic LOSV in these orbits leads to modulations at 4PN order.
       <figure style="text-align: center;">
         <img src="/assets/Research/gw_insp_BH_as_third_dop_compressed.gif" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
         <figcaption style="font-size:0.975rem; color:gray; margin-top:5px;">
