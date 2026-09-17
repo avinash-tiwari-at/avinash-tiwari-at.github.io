@@ -311,9 +311,9 @@ body.publications {
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column;   
+    align-items: center;      
     text-align: center;       
-    align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;     /* A smaller bumper for mobile */
   }
 
   .home-text {
@@ -321,14 +321,15 @@ body.publications {
   }
   
   .social-links {
-    position: relative; /* Un-pins the icons */
-    bottom: auto;       /* Clears the bottom lock */
-    left: auto;         /* Clears the left lock */
-    transform: none;    /* Removes the horizontal shift */
-    margin-top: 30px;   /* Adds a nice gap above the icons */
+    position: relative; 
+    bottom: auto;       
+    left: auto;         
+    transform: none;    
+    
+    /* ADD THIS: 'auto' forces the icons to push all the way to the bottom of the container! */
+    margin-top: auto;   
   }
 }
-
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
