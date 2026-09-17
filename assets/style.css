@@ -310,12 +310,22 @@ body.publications {
 
 @media (max-width: 768px) {
   .home-container {
-    flex-direction: column;   /* stack vertically */
-    text-align: center;       /* center text under image */
+    flex-direction: column;   
+    text-align: center;       
+    align-items: center;
+    padding-bottom: 40px;
   }
 
   .home-text {
     margin-top: 15px;
+  }
+  
+  .social-links {
+    position: relative; /* Un-pins the icons */
+    bottom: auto;       /* Clears the bottom lock */
+    left: auto;         /* Clears the left lock */
+    transform: none;    /* Removes the horizontal shift */
+    margin-top: 30px;   /* Adds a nice gap above the icons */
   }
 }
 
