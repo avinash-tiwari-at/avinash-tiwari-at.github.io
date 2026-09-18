@@ -76,12 +76,12 @@ bodyClass: research
       </figure>
     </p>
     <p>
-      The Figure below shows the $1d$-posteriors of the 21-cm global signal parameters inferred without and with GW observations. The top panel shows that none of the parameters except $\beta$ are measured, even at a 90\% credible level, while the bottom panel shows that when we use the GW posteriors on $\Psi_0$ and $\beta$  as priors while inferring the other 21-cm global signal parameters, the inference on these parameters improves significantly.
+      The Figure below shows the $1d$-posteriors of the 21-cm global signal parameters inferred without and with GW observations. The top panel shows that none of the parameters except $\beta$ are measured, even at a 90% credible level, while the bottom panel shows that when we use the GW posteriors on $\Psi_0$ and $\beta$  as priors while inferring the other 21-cm global signal parameters, the inference on these parameters improves significantly.
       <figure style="text-align: center;">
         <img src="/assets/Research/21_cm_post_noGW.jpg" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
         <img src="/assets/Research/21_cm_post_GW.jpg" alt="Project 1 figure" style="max-width:95%; border-radius:8px;">
         <figcaption style="font-size:0.975rem; color:gray; margin-top:5px;">
-        <strong>TOP PANEL </strong>: The $1d$-posteriors of the 21-cm global signal parameters using only the data from the 21cm observation, with no complementary GW information. <strong>BOTTOM PANEL </strong>: The inferred posteriors of 21-cm global signal parameters obtained using both the 21-cm signal observation as well as the GW hierarchical inference results. Blue histograms correspond to inference involving 100 GW events, while the brown histograms correspond to 1000 GW events. The black dashed lines represent the true values, while the light blue and brown shaded regions represent the 90\% credible intervals.
+        <strong>TOP PANEL </strong>: The $1d$-posteriors of the 21-cm global signal parameters using only the data from the 21cm observation, with no complementary GW information. <strong>BOTTOM PANEL </strong>: The inferred posteriors of 21-cm global signal parameters obtained using both the 21-cm signal observation as well as the GW hierarchical inference results. Blue histograms correspond to inference involving 100 GW events, while the brown histograms correspond to 1000 GW events. The black dashed lines represent the true values, while the light blue and brown shaded regions represent the 90% credible intervals.
         </figcaption>
       </figure>
     </p>
