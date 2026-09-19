@@ -6,20 +6,14 @@ layout: default
 # Photo Gallery
 
 <div class="gallery">
-  <img src="/assets/photos/photo1.jpg" alt="Photo 1" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo2.jpg" alt="Photo 2" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo3.jpg" alt="Photo 3" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo4.jpg" alt="Photo 4" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo5.JPG" alt="Photo 5" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo6.JPG" alt="Photo 6" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo7.jpg" alt="Photo 7" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo8.jpg" alt="Photo 8" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo9.jpg" alt="Photo 9" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo10.jpg" alt="Photo 10" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo11.jpg" alt="Photo 11" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo12.jpg" alt="Photo 12" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo13.jpg" alt="Photo 13" onclick="openLightbox(this)">
-  <img src="/assets/photos/photo14.jpg" alt="Photo 14" onclick="openLightbox(this)">
+  {% for file in site.static_files %}
+    {% if file.path contains '/assets/photos/' %}
+      {% assign ext = file.extname | downcase %}
+      {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' %}
+        <img src="{{ file.path }}" alt="Gallery Photo" onclick="openLightbox(this)">
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </div>
 
 <!-- Lightbox -->
